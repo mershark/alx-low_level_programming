@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * time_table - print the 9 times table
+ * times_table - print the 9 times table
  */
-void time_table(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
