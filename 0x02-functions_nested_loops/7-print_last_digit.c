@@ -5,6 +5,7 @@
  * print_last_digit - prints the last digit
  * @n: the number
  * Return: value of the last digit
+ * main - Entry point
  */
 int print_last_digit(int n)
 {
@@ -14,9 +15,8 @@ int print_last_digit(int n)
 
 	return (x);
 }
-
-int main(void)
 {
-	printf("%d\n", print_last_digit(245))
+	printf("%d\n", print_last_digit(245));
+
 	return (0);
 }
