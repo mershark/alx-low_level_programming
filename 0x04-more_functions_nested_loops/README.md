@@ -1,1 +1,1 @@
-more function and loop task
+smore function and loop task
