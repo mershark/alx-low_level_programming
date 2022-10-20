@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line -> printing line
- * @n: integer params
+ * print_line - draws a straignt line using a character _.
+ * @n: the number of _ characters to be printed out
  */
 
 void print_line(int n)
