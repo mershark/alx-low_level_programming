@@ -5,14 +5,18 @@
  */
 void more_numbers(void)
 {
-	int x, y;
+	int n, count;
 
-	for (x = 0; x < 10; x++)
+	for (count = 0; count <= 9; count++)
 	{
-		for (y = 0; y < 15; y++)
-		{
-			_putchar(y + '0');
-		}
-		_putchar('\n');
+	for (n = 0; n <= 14; n++)
+	{
+	if (n > 9)
+	{
+	_putchar((n / 10) + '0');
+	}
+	_putchar((n % 10) + '0');
+	}
+	_putchar('\n');
 	}
 }
