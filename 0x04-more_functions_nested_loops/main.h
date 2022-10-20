@@ -8,6 +8,7 @@
  * 	used in 0x03-more_functions_nested_loos directory
  */
 
+int _isupper(int c);
 int _putchar(char c);
 int _isdigit(int c);
 int mul(int a, int b);
