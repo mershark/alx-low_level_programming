@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		if (*s == accept[index])
 		{
-			bytes++
+			bytes++;
 				break;
 		}
 		else if (accept[index + 1] == '\0')
